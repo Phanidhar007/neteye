@@ -6,7 +6,7 @@ A portfolio project demonstrating packet-level networking with [Scapy](https://g
 
 ## 🌐 Live demo
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/<Phanidhar007>/neteye)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Phanidhar007/neteye)
 
 Try the web demo (sandboxed TCP connect scan): **`https://neteye-demo.onrender.com`** (deploy it first — see [`demo/README.md`](demo/README.md)).
 
@@ -23,7 +23,7 @@ Try the web demo (sandboxed TCP connect scan): **`https://neteye-demo.onrender.c
 ## Install
 
 ```bash
-git clone https://github.com/<Phanidhar007>/neteye.git
+git clone https://github.com/Phanidhar007/neteye.git
 cd neteye
 python -m venv .venv && .venv\Scripts\activate   # Windows
 # source .venv/bin/activate                       # Linux/macOS
