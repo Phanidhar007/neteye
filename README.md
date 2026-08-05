@@ -4,6 +4,12 @@
 
 A portfolio project demonstrating packet-level networking with [Scapy](https://github.com/secdev/scapy) — the standard Python packet manipulation library used by the security industry (also the base for many IDS/pen-test toolkits).
 
+## 🌐 Live demo
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/<your-username>/neteye)
+
+Try the web demo (sandboxed TCP connect scan): **`https://neteye-demo.onrender.com`** (deploy it first — see [`demo/README.md`](demo/README.md)).
+
 ## Features
 
 - 📡 **ARP host discovery** — sweep a CIDR, report live IPs, MACs and known OUI vendors (VMware, VirtualBox, Hyper-V, Docker, Raspberry Pi, QEMU)

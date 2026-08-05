@@ -1,2 +1,3 @@
 scapy>=2.5.0
 netifaces>=0.11.0; platform_system == "Windows"
+flask>=3.0          # used by demo/app.py (Vercel / Render deployments)

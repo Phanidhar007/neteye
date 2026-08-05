@@ -8,3 +8,5 @@ neteye_report*
 .env
 dist/
 build/
+.vercel/
+demo/uploads/
