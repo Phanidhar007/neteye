@@ -1,8 +1,0 @@
-﻿services:
-  - type: web
-    name: neteye-demo
-    runtime: docker
-    repo: https://github.com/Phanidhar007/neteye
-    plan: free
-    dockerfilePath: demo/Dockerfile
-    autoDeploy: true

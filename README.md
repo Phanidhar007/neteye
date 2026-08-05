@@ -1,4 +1,4 @@
-# neteye
+﻿# neteye
 
 > Network reconnaissance scanner built on **Scapy**: ARP host discovery, SYN (half-open) port scanning, banner grabbing and TTL-based OS fingerprinting.
 
@@ -6,9 +6,9 @@ A portfolio project demonstrating packet-level networking with [Scapy](https://g
 
 ## 🌐 Live demo
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Phanidhar007/neteye)
+Deploy on **Vercel**: import this repo at [vercel.com](https://vercel.com) — it auto-detects `vercel.json` + `api/index.py`.
 
-Try the web demo (sandboxed TCP connect scan): **`https://neteye-demo.onrender.com`** (deploy it first — see [`demo/README.md`](demo/README.md)).
+Live demo: **`https://neteye.vercel.app`** — see [demo/README.md](demo/README.md).
 
 ## Features
 

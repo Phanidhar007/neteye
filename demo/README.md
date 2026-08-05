@@ -2,18 +2,15 @@
 
 Browser demo: TCP connect port scan against a host you choose (sandboxed).
 
-## Try it
+## Deploy on Vercel (free)
 
-- **Render (one-click, recommended):** [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Phanidhar007/neteye)
-- **Hugging Face Spaces:** Docker Space → `demo/Dockerfile`.
-- **Vercel:** import the repo → `api/index.py` + `vercel.json`.
-
-Live demo URL (after deploying): `https://neteye-demo.onrender.com`
+1. Push this repo to GitHub, then import it at [vercel.com](https://vercel.com) � it auto-detects `vercel.json` + `api/index.py`.
+2. Your app is live at `https://neteye.vercel.app` (or the URL Vercel assigns).
 
 ## Run locally
 
 ```bash
-pip install -r requirements.txt -r demo/requirements.txt
+pip install -r requirements.txt
 python demo/app.py          # http://localhost:7860
 ```
 
